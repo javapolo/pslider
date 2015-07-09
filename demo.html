@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+     <link rel="stylesheet" href="jquery.pslider.css">
+    <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <style>
+        .slider-wrapper{
+            min-width: 960px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="slider-wrapper">
+    <div class="slider">
+        <a href="#" class="slider-item cnow" style="background-image: url('demoimgs/01.jpg');"></a>
+        <a href="#" class="slider-item" style="background-image: url('demoimgs/02.jpg');"></a>
+        <a href="#" class="slider-item" style="background-image: url('demoimgs/03.jpg');"></a>
+    </div>
+</div>
+<script src="jquery.pslider.js"></script>
+<script>
+ $(".slider").pslider({duration:6000});
+</script>
+</body>
+</html>
